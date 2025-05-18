@@ -170,7 +170,7 @@ export default function ServiceDetailScreen() {
                   <Feather name="credit-card" size={20} color="#10B981" />
                 </View>
                 <View>
-                  <Text className="font-bold text-gray-800">${service.payment.amount.toFixed(2)}</Text>
+                  <Text className="font-bold text-gray-800">₱{service.payment.amount.toFixed(2)}</Text>
                   <Text className="text-gray-600">{service.payment.method}</Text>
                 </View>
               </View>
