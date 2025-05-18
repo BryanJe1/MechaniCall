@@ -142,6 +142,11 @@ export default function LoginScreen() {
               <Text className="text-[#D92C2C] font-medium">Sign Up</Text>
             </TouchableOpacity>
           </View>
+          <View className="mt-6 items-center">
+            <Text className="text-gray-500 text-sm font-medium">Sample Accounts:</Text>
+            <Text className="text-gray-500 text-sm">Mechanic - Email: mechanic.com | Password: 12345</Text>
+            <Text className="text-gray-500 text-sm">Driver - Email: driver.com | Password: 12345</Text>
+          </View>
         </Animated.View>
       </Animated.View>
     </SafeAreaView>
